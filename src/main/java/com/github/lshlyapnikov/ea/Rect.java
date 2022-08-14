@@ -1,8 +1,7 @@
 package com.github.lshlyapnikov.ea;
 
-/**
- * https://blogs.oracle.com/javamagazine/post/escape-analysis-in-the-hotspot-jit-compiler
- */
+
+// https://blogs.oracle.com/javamagazine/post/escape-analysis-in-the-hotspot-jit-compiler
 public class Rect {
     private final int w;
     private final int h;

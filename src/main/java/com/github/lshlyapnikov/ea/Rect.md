@@ -1,5 +1,7 @@
 # UseEpsilonGC and EscapeAnalysis
 
+[Escape Analysis in the HotSpot JIT Compiler](https://blogs.oracle.com/javamagazine/post/escape-analysis-in-the-hotspot-jit-compiler)
+
 ## Requirements
 ```
 export JAVA_HOME=/usr/lib/jvm/jdk-17
