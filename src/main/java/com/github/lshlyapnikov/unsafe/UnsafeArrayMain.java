@@ -28,7 +28,7 @@ public class UnsafeArrayMain {
         System.out.printf("array: %s\n", Arrays.toString(array));
 
         for (int i = 0; i < array.length; i++) {
-            System.out.printf("index: %s\n", ((long)i << ASHIFT));
+            System.out.printf("offset: %s\n", ((long)i << ASHIFT));
             U.compareAndSetReference(array, ((long)i << ASHIFT) + ABASE, 0L, (long) i);
         }
 
